@@ -80,6 +80,7 @@ kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
 
 These commands will install ArgoCD into the specified namespace, set up the service as a LoadBalancer, and retrieve the admin password for you to access the ArgoCD UI.
+
 **# install argoCD**
 ![Screenshot 2024-03-04 113202](https://github.com/vijayalakshmi1205/repo-2/assets/144942239/7709f737-4bd1-49ff-b690-d86cd1cdc547)
 
