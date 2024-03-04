@@ -36,7 +36,9 @@ Configure Cloud Shell:
 aws eks update-kubeconfig --name shack-eks --region ap-south-1
 
 2.Replace "shack-eks" with the name of your EKS cluster and "ap-south-1" with the appropriate region if different.
+
 3.These steps should help you in setting up your EKS cluster along with necessary roles and compute resources.
+
 Install ArgoCD:
 Here are the steps to install ArgoCD and retrieve the admin password:
 
